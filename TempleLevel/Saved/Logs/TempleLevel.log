@@ -1,0 +1,445 @@
+﻿[2016.11.18-16.32.46:286][  0]Log file open, 11/18/16 10:32:46
+[2016.11.18-16.32.46:286][  0]LogInit:Display: Running engine for game: TempleLevel
+[2016.11.18-16.32.46:286][  0]LogPlatformFile: Not using cached read wrapper
+[2016.11.18-16.32.46:286][  0]LogInit:Display: RandInit(-1548010902) SRandInit(-1548010901).
+[2016.11.18-16.32.46:286][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.11.18-16.32.46:286][  0]LogStats: Stats thread started at 0.090885
+[2016.11.18-16.32.46:286][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.11.18-16.32.46:286][  0]LogInit: API Version: 2758231
+[2016.11.18-16.32.46:286][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.11.18-16.32.46:286][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.11.18-16.32.46:286][  0]LogInit: Build Configuration: Development
+[2016.11.18-16.32.46:286][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.11.18-16.32.46:286][  0]LogInit: Command line: -EpicPortal 
+[2016.11.18-16.32.46:286][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.11.18-16.32.46:286][  0]LogInit: Rocket: 1
+[2016.11.18-16.32.46:303][  0]LogInit: Using libcurl 7.41.0
+[2016.11.18-16.32.46:303][  0]LogInit:  - built for x86_64-pc-win32
+[2016.11.18-16.32.46:303][  0]LogInit:  - supports SSL with WinSSL
+[2016.11.18-16.32.46:303][  0]LogInit:  - other features:
+[2016.11.18-16.32.46:303][  0]LogInit:      CURL_VERSION_SSL
+[2016.11.18-16.32.46:303][  0]LogInit:      CURL_VERSION_IPV6
+[2016.11.18-16.32.46:303][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.11.18-16.32.46:303][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.11.18-16.32.46:303][  0]LogInit:      CURL_VERSION_IDN
+[2016.11.18-16.32.46:303][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.11.18-16.32.46:303][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.11.18-16.32.46:303][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.11.18-16.32.46:303][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.11.18-16.32.46:303][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.11.18-16.32.46:324][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.11.18-16.32.46:343][  0]LogInit: Object subsystem initialized
+[2016.11.18-16.32.46:345][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.18-16.32.46:345][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.18-16.32.46:371][  0]LogInit: Computer: JARVIS
+[2016.11.18-16.32.46:371][  0]LogInit: User: APCT1000
+[2016.11.18-16.32.46:371][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.11.18-16.32.46:371][  0]LogInit: High frequency timer resolution =1.656321 MHz
+[2016.11.18-16.32.46:371][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2016.11.18-16.32.46:371][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.18-16.32.46:371][  0]LogMemory: Process Physical Memory: 54.37 MB used, 54.37 MB peak
+[2016.11.18-16.32.46:371][  0]LogMemory: Process Virtual Memory: 57.26 MB used, 57.26 MB peak
+[2016.11.18-16.32.46:371][  0]LogMemory: Physical Memory: 3273.23 MB used, 6045.10 MB total
+[2016.11.18-16.32.46:371][  0]LogMemory: Virtual Memory: 364.30 MB used, 134217728.00 MB total
+[2016.11.18-16.32.46:435][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.18-16.32.47:373][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.11.18-16.32.47:373][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2016.11.18-16.32.47:377][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.11.18-16.32.47:378][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.11.18-16.32.47:378][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.11.18-16.32.47:388][  0]LogD3D11RHI: !Direct3DDevice
+[2016.11.18-16.32.47:388][  0]LogRHI: Texture pool is 716 MB (70% of 1024 MB)
+[2016.11.18-16.32.47:400][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.18-16.32.47:408][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/APCT1_000/Documents/GitHub/Engineering/TempleLevel/Intermediate/Shaders/WorkingDirectory/13144/).
+[2016.11.18-16.32.47:408][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/APCT1_~1/AppData/Local/Temp/UnrealShaderWorkingDir/B545048342C4623A88DEAB975CCB7A71/'.
+[2016.11.18-16.32.47:408][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.18-16.32.49:168][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.18-16.32.49:178][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.18-16.32.49:187][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.18-16.32.49:196][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.18-16.32.49:205][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.18-16.32.49:211][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.18-16.32.49:217][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.18-16.32.49:222][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.18-16.32.49:229][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.18-16.32.49:237][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.18-16.32.49:244][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.18-16.32.49:257][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.18-16.32.49:257][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.18-16.32.49:259][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.18-16.32.49:283][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.18-16.32.49:288][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.18-16.32.49:294][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.18-16.32.49:302][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.18-16.32.49:302][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.18-16.32.49:476][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.18-16.32.49:561][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/APCT1_000/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.18-16.32.49:561][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/APCT1_000/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.11.18-16.32.49:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/APCT1_000/Documents/GitHub/Engineering/TempleLevel/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.18-16.32.49:561][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.18-16.32.49:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/APCT1_000/Documents/GitHub/Engineering/TempleLevel/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.18-16.32.49:561][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.18-16.32.49:672][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.18-16.32.49:693][  0]LogDerivedDataCache: Using Local data cache path C:/Users/APCT1_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.18-16.32.50:101][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.18-16.32.50:107][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.11.18-16.32.50:318][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.18-16.32.50:318][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.18-16.32.50:771][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.18-16.32.52:434][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.18-16.32.52:703][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.11.18-16.32.53:072][  0]SourceControl: Info Source control is disabled
+[2016.11.18-16.32.53:074][  0]SourceControl: Info Source control is disabled
+[2016.11.18-16.32.53:100][  0]SourceControl: Info Source control is disabled
+[2016.11.18-16.32.53:130][  0]SourceControl: Info Source control is disabled
+[2016.11.18-16.32.53:664][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.11.18-16.32.53:664][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.11.18-16.32.53:762][  0]LogEngine: Initializing Engine...
+[2016.11.18-16.32.53:765][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.11.18-16.32.53:766][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.18-16.32.53:993][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.18-16.32.54:000][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.18-16.32.54:031][  0]LogInit: FAudioDevice initialized.
+[2016.11.18-16.32.54:075][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/APCT1_000/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.11.18-16.32.54:085][  0]LogInit: Texture streaming: Enabled
+[2016.11.18-16.32.54:098][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.11.18-16.32.54:098][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.11.18-16.32.54:098][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId a7be9ccd4953bc1fe15c0da22ce2d979|a89c628686e241409358cf1cfd870a0b|6b331781-92f5-44f4-a153-a924a427f7f8
+[2016.11.18-16.32.54:098][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.11.18-16.32.54:113][  0]LogInit: Transaction tracking system initialized
+[2016.11.18-16.32.54:169][  0]BlueprintLog: New page: Editor Load
+[2016.11.18-16.32.54:326][  0]LocalizationService: Info Localization service is disabled
+[2016.11.18-16.32.54:732][  0]LogConsoleResponse:Display: 
+[2016.11.18-16.32.54:964][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.11.18-16.32.55:099][  0]LogFileCache: Scanning file cache for directory 'C:/Users/APCT1_000/Documents/GitHub/Engineering/TempleLevel/Content/' took 0.02s
+[2016.11.18-16.32.55:099][  0]SourceControl: Info Source control is disabled
+[2016.11.18-16.32.55:100][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.18-16.32.55:101][  0]LightingResults: New page: Lighting Build
+[2016.11.18-16.32.55:106][  0]MapCheck: New page: Map Check
+[2016.11.18-16.32.55:106][  0]LightingResults: New page: Lighting Build
+[2016.11.18-16.32.55:139][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001BB317BB00
+[2016.11.18-16.32.55:558][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.18-16.32.55:565][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.18-16.32.55:577][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.18-16.32.55:705][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 128.791ms to complete.
+[2016.11.18-16.32.55:705][  0]LogFileHelpers: Loading map 'Template_Default' took 0.606
+[2016.11.18-16.32.55:855][  0]LogCollectionManager: Loaded 0 collections in 0.004651 seconds
+[2016.11.18-16.32.55:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/APCT1_000/Documents/GitHub/Engineering/TempleLevel/Saved/Collections/' took 0.01s
+[2016.11.18-16.32.55:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/APCT1_000/Documents/GitHub/Engineering/TempleLevel/Content/Developers/APCT1000/Collections/' took 0.01s
+[2016.11.18-16.32.55:903][  0]LogFileCache: Scanning file cache for directory 'C:/Users/APCT1_000/Documents/GitHub/Engineering/TempleLevel/Content/Collections/' took 0.01s
+[2016.11.18-16.32.55:903][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.11.18-16.32.55:914][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 1893 classes and 338 folders.
+[2016.11.18-16.32.55:927][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.11.18-16.32.56:037][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.11.18-16.32.56:044][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.11.18-16.32.56:079][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.18-16.32.56:084][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.18-16.32.56:109][  0]LogLoad: Full Startup: 10.63 seconds (BP compile: 0.07 seconds)
+[2016.11.18-16.32.56:130][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.18-16.32.56:131][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.18-16.32.56:134][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.11.18-16.32.56:203][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.11.18-16.32.56:414][  0]LogRenderer: Reallocating scene render targets to support 812x352 (Frame:2).
+[2016.11.18-16.32.57:069][  4]LogAssetRegistry: Asset discovery search completed in 4.3773 seconds
+[2016.11.18-16.32.57:069][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.11.18-16.32.57:069][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2016.11.18-16.33.00:741][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.18-16.33.08:284][574]LogEditorActor: Deleted Actor: AtmosphericFog
+[2016.11.18-16.33.08:300][574]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.18-16.33.10:332][574]LogEditorActor: Deleted Actor: DirectionalLight
+[2016.11.18-16.33.10:339][574]LogEditorActor: Deleted Actor: PlayerStart
+[2016.11.18-16.33.10:340][574]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2016.11.18-16.33.10:386][574]LogEditorActor: Deleted 5 Actors (2.119 secs)
+[2016.11.18-16.33.22:192][866]LogAIModule: Creating AISystem for world RogueElementTemple
+[2016.11.18-16.33.22:197][866]LogMaterial:Warning: Material /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.11.18-16.33.22:297][866]LogMaterial: Missing cached shader map for material M_Plains_Floors_Block, compiling. 
+[2016.11.18-16.33.22:349][866]MapCheck:Warning: Warning M_Plains_Floors_Block Material /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_Floors_Block.M_Plains_Floors_Block was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.11.18-16.33.22:364][866]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.18-16.33.22:364][866]LogMaterial:Warning: Material /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_FloorTrims.M_Plains_FloorTrims needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.11.18-16.33.22:408][866]LogMaterial: Missing cached shader map for material M_Plains_FloorTrims, compiling. 
+[2016.11.18-16.33.22:433][866]MapCheck:Warning: Warning M_Plains_FloorTrims Material /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Floors/Materials/M_Plains_FloorTrims.M_Plains_FloorTrims was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.11.18-16.33.22:435][866]LogMaterial: 0.000241 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.11.18-16.33.22:438][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire1.ParticleSystemComponent0
+[2016.11.18-16.33.22:438][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire2.ParticleSystemComponent0
+[2016.11.18-16.33.22:438][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire3.ParticleSystemComponent0
+[2016.11.18-16.33.22:439][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire4.ParticleSystemComponent0
+[2016.11.18-16.33.22:439][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire6.ParticleSystemComponent0
+[2016.11.18-16.33.22:440][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire7.ParticleSystemComponent0
+[2016.11.18-16.33.22:440][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire8.ParticleSystemComponent0
+[2016.11.18-16.33.22:441][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire9.ParticleSystemComponent0
+[2016.11.18-16.33.22:441][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire10.ParticleSystemComponent0
+[2016.11.18-16.33.22:442][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire11.ParticleSystemComponent0
+[2016.11.18-16.33.22:442][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire12.ParticleSystemComponent0
+[2016.11.18-16.33.22:442][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire13.ParticleSystemComponent0
+[2016.11.18-16.33.22:442][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire14.ParticleSystemComponent0
+[2016.11.18-16.33.22:443][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire15.ParticleSystemComponent0
+[2016.11.18-16.33.22:443][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire16.ParticleSystemComponent0
+[2016.11.18-16.33.22:444][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire17.ParticleSystemComponent0
+[2016.11.18-16.33.22:444][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire18.ParticleSystemComponent0
+[2016.11.18-16.33.22:445][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire19.ParticleSystemComponent0
+[2016.11.18-16.33.22:445][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire20.ParticleSystemComponent0
+[2016.11.18-16.33.22:446][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire21.ParticleSystemComponent0
+[2016.11.18-16.33.22:446][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire22.ParticleSystemComponent0
+[2016.11.18-16.33.22:447][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire23.ParticleSystemComponent0
+[2016.11.18-16.33.22:447][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire24.ParticleSystemComponent0
+[2016.11.18-16.33.22:448][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire25.ParticleSystemComponent0
+[2016.11.18-16.33.22:448][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire26.ParticleSystemComponent0
+[2016.11.18-16.33.22:449][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire27.ParticleSystemComponent0
+[2016.11.18-16.33.22:449][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire28.ParticleSystemComponent0
+[2016.11.18-16.33.22:455][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire29.ParticleSystemComponent0
+[2016.11.18-16.33.22:455][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire30.ParticleSystemComponent0
+[2016.11.18-16.33.22:465][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire31.ParticleSystemComponent0
+[2016.11.18-16.33.22:466][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire32.ParticleSystemComponent0
+[2016.11.18-16.33.22:466][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire33.ParticleSystemComponent0
+[2016.11.18-16.33.22:467][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire34.ParticleSystemComponent0
+[2016.11.18-16.33.22:467][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire35.ParticleSystemComponent0
+[2016.11.18-16.33.22:468][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire36.ParticleSystemComponent0
+[2016.11.18-16.33.22:468][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire37.ParticleSystemComponent0
+[2016.11.18-16.33.22:469][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire38.ParticleSystemComponent0
+[2016.11.18-16.33.22:469][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire39.ParticleSystemComponent0
+[2016.11.18-16.33.22:471][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire40.ParticleSystemComponent0
+[2016.11.18-16.33.22:471][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire41.ParticleSystemComponent0
+[2016.11.18-16.33.22:473][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire42.ParticleSystemComponent0
+[2016.11.18-16.33.22:474][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire43.ParticleSystemComponent0
+[2016.11.18-16.33.22:475][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire44.ParticleSystemComponent0
+[2016.11.18-16.33.22:476][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire45.ParticleSystemComponent0
+[2016.11.18-16.33.22:478][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire46.ParticleSystemComponent0
+[2016.11.18-16.33.22:481][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire47.ParticleSystemComponent0
+[2016.11.18-16.33.22:482][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire48.ParticleSystemComponent0
+[2016.11.18-16.33.22:607][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire49.ParticleSystemComponent0
+[2016.11.18-16.33.22:608][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire50.ParticleSystemComponent0
+[2016.11.18-16.33.22:608][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire51.ParticleSystemComponent0
+[2016.11.18-16.33.22:609][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire52.ParticleSystemComponent0
+[2016.11.18-16.33.22:609][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire5.ParticleSystemComponent0
+[2016.11.18-16.33.22:610][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire53.ParticleSystemComponent0
+[2016.11.18-16.33.22:610][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire54.ParticleSystemComponent0
+[2016.11.18-16.33.22:611][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire55.ParticleSystemComponent0
+[2016.11.18-16.33.22:617][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire56.ParticleSystemComponent0
+[2016.11.18-16.33.22:617][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire57.ParticleSystemComponent0
+[2016.11.18-16.33.22:617][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire58.ParticleSystemComponent0
+[2016.11.18-16.33.22:617][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire59.ParticleSystemComponent0
+[2016.11.18-16.33.22:617][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/StarterContent/Particles/P_Fire.P_Fire Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.Fire60.ParticleSystemComponent0
+[2016.11.18-16.33.22:619][866]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/InfinityBladeGrassLands/Effects/FX_Ambient/Fog/P_Dust_groundCoat.P_Dust_groundCoat Component=/Game/RogueElementTemple.RogueElementTemple:PersistentLevel.P_Dust_groundCoat_16.ParticleSystemComponent0
+[2016.11.18-16.33.26:025][866]Cmd: MAP LOAD FILE="../../../../../../Users/APCT1_000/Documents/GitHub/Engineering/TempleLevel/Content/RogueElementTemple.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.18-16.33.26:027][866]LightingResults: New page: Lighting Build
+[2016.11.18-16.33.26:083][866]LoadErrors: New page: Loading map: RogueElementTemple.umap
+[2016.11.18-16.33.26:083][866]MapCheck: New page: Map Check
+[2016.11.18-16.33.26:084][866]LightingResults: New page: Lighting Build
+[2016.11.18-16.33.26:144][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001BA3C18AE0
+[2016.11.18-16.33.26:217][866]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.18-16.33.26:427][866]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.18-16.33.26:772][866]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 344.227ms to complete.
+[2016.11.18-16.33.26:776][866]LogFileHelpers: Loading map 'RogueElementTemple' took 0.753
+[2016.11.18-16.33.32:659][985]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.18-16.33.32:659][985]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.18-16.33.33:056][986]Cmd: QUIT_EDITOR
+[2016.11.18-16.33.33:465][986]LogExit: Preparing to exit.
+[2016.11.18-16.33.34:765][986]LogExit: Editor shut down
+[2016.11.18-16.33.34:766][986]LogExit: Transaction tracking system shut down
+[2016.11.18-16.33.34:772][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001BBA692AC0
+[2016.11.18-16.33.34:776][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001BB9AC6E80
+[2016.11.18-16.33.34:776][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001BBC918720
+[2016.11.18-16.33.34:777][986]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001BBC91B240
+[2016.11.18-16.33.35:148][986]LogExit: Object subsystem successfully closed.
+[2016.11.18-16.33.35:166][986]LogD3D11RHI: Shutdown
+[2016.11.18-16.33.35:166][986]LogD3D11RHI: CleanupD3DDevice
+[2016.11.18-16.33.35:393][986]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.18-16.33.35:427][986]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.11.18-16.33.35:427][986]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.11.18-16.33.35:427][986]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.11.18-16.33.35:427][986]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.11.18-16.33.35:427][986]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.11.18-16.33.35:429][986]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.11.18-16.33.35:430][986]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.11.18-16.33.35:436][986]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.11.18-16.33.35:437][986]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.11.18-16.33.35:438][986]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.11.18-16.33.35:479][986]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.11.18-16.33.35:479][986]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.11.18-16.33.35:479][986]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.11.18-16.33.35:479][986]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.11.18-16.33.35:479][986]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.11.18-16.33.35:479][986]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.11.18-16.33.35:479][986]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.11.18-16.33.35:479][986]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.11.18-16.33.35:505][986]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.11.18-16.33.35:505][986]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.11.18-16.33.35:505][986]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.11.18-16.33.35:505][986]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.11.18-16.33.35:505][986]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.11.18-16.33.35:505][986]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.11.18-16.33.35:505][986]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.11.18-16.33.35:505][986]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.11.18-16.33.35:506][986]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.11.18-16.33.35:507][986]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.11.18-16.33.35:509][986]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.11.18-16.33.35:645][986]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.11.18-16.33.35:646][986]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.11.18-16.33.35:646][986]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.11.18-16.33.35:747][986]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.11.18-16.33.35:747][986]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.11.18-16.33.35:747][986]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.11.18-16.33.35:751][986]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.11.18-16.33.35:751][986]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.11.18-16.33.35:751][986]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.11.18-16.33.35:751][986]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.11.18-16.33.35:751][986]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.11.18-16.33.35:751][986]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.11.18-16.33.35:751][986]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.11.18-16.33.35:751][986]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.11.18-16.33.35:752][986]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.11.18-16.33.35:752][986]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.11.18-16.33.35:752][986]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.11.18-16.33.35:752][986]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.11.18-16.33.35:752][986]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.11.18-16.33.35:752][986]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.11.18-16.33.35:752][986]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.11.18-16.33.35:752][986]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.11.18-16.33.35:757][986]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.11.18-16.33.35:757][986]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.11.18-16.33.35:757][986]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.11.18-16.33.35:757][986]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.11.18-16.33.35:758][986]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.11.18-16.33.35:758][986]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.11.18-16.33.35:758][986]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.11.18-16.33.35:758][986]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.11.18-16.33.35:758][986]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.11.18-16.33.35:758][986]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.11.18-16.33.36:299][986]LogDerivedDataCache: Shutdown
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.18-16.33.36:299][986]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.18-16.33.38:303][986]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.18-16.33.38:303][986]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.18-16.33.38:303][986]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.18-16.33.38:303][986]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.18-16.33.38:303][986]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.18-16.33.38:303][986]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.18-16.33.38:303][986]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.18-16.33.38:304][986]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.18-16.33.38:306][986]LogExit: Exiting.
+[2016.11.18-16.33.38:328][986]Log file closed, 11/18/16 10:33:38
